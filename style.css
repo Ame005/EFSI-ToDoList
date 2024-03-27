@@ -1,0 +1,91 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.general {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    font-size: 24px;
+    color: #333;
+}
+
+#top {
+    margin-bottom: 20px;
+}
+
+#tareaEscribir {
+    width: calc(100% - 40px); 
+    margin: 0 10px;
+    margin-top:20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 16px;
+    outline: none;
+}
+
+#botones {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.boton-comun {
+    background-color: #4cafaf;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 8px;
+    border: none;
+    transition: background-color 0.3s ease;
+}
+
+.boton-comun:hover {
+    background-color: #456ca0;
+}
+
+#listaDeTareas {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+#listaDeTareas li {
+    margin-bottom: 10px;
+    margin-left: 20px;
+    margin-right:20px;
+    margin-top:10px;
+    background-color: #f9f9f9;
+    padding: 10px;
+    border-radius: 4px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#listaDeTareas li:last-child {
+    margin-bottom: 0;
+}
+
+h1 {
+    text-align: center;
+    font-size: 24px;
+    color: #333;
+    margin: 0 10px; /* Margen lateral de 10px */
+    margin-top:20px;
+}
